@@ -1,0 +1,16 @@
+.cabecalho{
+ background-color:var[--cor-de-fundo];
+ padding: 1em;
+}
+.container{
+display:flex;
+align-items:center;
+}
+.container-imagem,.container-titulo,
+.container-frase{
+padding:1em;
+}
+.container-titulo,.container-frase{
+display:nome;
+}
+@mesia screen and(min-width:)
