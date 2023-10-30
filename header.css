@@ -3,7 +3,10 @@ height:24px;
 background-image:url("img hanburgue");
 display:inline-block;
 }
-.cabecalho{
+.cabecalho{  
+display:flex;
+justify-content:space-between;
+align-items:center;
  background-color:var[--cor-de-fundo];
  padding: 1em;
 }
@@ -32,3 +35,19 @@ font-size:20px;
 padding-left:5em;
 }
 }
+.cabecalho__menu-hamburgue{
+width:24px;
+height:24px;
+display:inline-block;
+}
+.menu-hamburguer-imagem{
+width:24px;
+height:24px;
+justify-content:space-between;
+align-items:center;
+}
+.container__imagem{
+width:24px;
+height:24px;
+justify-content:space-between;
+align-items:center;
